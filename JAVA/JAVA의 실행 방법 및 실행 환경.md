@@ -4,7 +4,7 @@
 - 자바로 작성된 모든 애플리케이션은 JVM에서만 실행되기 때문에 자바를 실행하기 위해선 반드시 JVM이 필요하다.
 
 ### JVM 구조
-![JVM구조](../img/jvm구조.png)
+![JVM구조](IdeaProjects/TIL/JAVA/img/jvm구조.png)
 
 1. Class Loader
     - 자바에서 소스를 작성하면 .java파일이 생성되고 .java소스를 컴파일하면 .class파일(바이트 코드)이 생성된다.
@@ -22,7 +22,7 @@
     - GC가 수행되는 동안 GC를 수행하는 쓰레드가 아닌 모든 쓰레드는 일시정지된다.
         - 메모리를 제거하고 옮길 때 다른 쓰레드가 메모리를 사용하면 안되기 때문이다.
 4. Runtime Data Area
-   ![RuntimeDataArea](../img/runtime.png)
+   ![RuntimeDataArea](IdeaProjects/TIL/JAVA/img/runtime.png)
     - JVM의 메모리 영역으로 자바 애플리케이션을 실행할 때 사용되는 데이터들을 적재하는 영역이다.
     1. Method area(메소드 영역)
         - 클래스 멤버 변수의 이름, 데이터 타입, 리턴 타입, 파라미터, Type정보(Interface인지 class인지), Constant Pool(상수 풀 : 문자 상수, 타입, 필드, 객체 참조가 저장됨), static 변수, final class 변수 등이 생성되는 영역이다.
@@ -46,7 +46,7 @@
 
 ## JAVA실행 방식
 
-![실행방식](../img/실행방식.png)
+![실행방식](IdeaProjects/TIL/JAVA/img/실행방식.png)
 
 ---------
 
